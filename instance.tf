@@ -37,3 +37,18 @@ resource "aws_instance" "terra-instance" {
  }
 
 }
+
+
+
+
+output "PublicIP" {
+   value = aws_instance.terra-instance.public_ip
+
+
+}
+
+output "PrivateIP" {
+   value = aws_instance.terra-instance.private_ip
+
+
+}
