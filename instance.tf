@@ -15,7 +15,7 @@ resource "aws_instance" "terra-instance" {
  tags = {
    Name = "terra-instance"
  }
-
+}
  #provisioner "file" {
  #  source = "web.sh"
  #  destination = "/tmp/web.sh"
