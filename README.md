@@ -1,15 +1,6 @@
-# Ex4-outputs
+# terraform-ex3-provisioners - LAB 3
 
 
 
-output "instance_ip_addr" {
+![image](https://user-images.githubusercontent.com/88930262/163140875-1a133258-e617-427d-bafd-267a9cbb3f08.png)
 
-  value = aws_instance.server.public_ip
-}
-
-
-Elements => resourceType.resourceName.attributeName
-
-   resourceType => aws_instance
-   resourceName => server
-   attibuteName = Public_IP
